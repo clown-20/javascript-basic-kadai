@@ -1,15 +1,11 @@
 // 体重
-let Weight;
-
-// 値の代入
-Weight = 68;
-
-// 変数の宣言
-let Height;
+let Weight = 68;
 
 // 身長
-Height = 1.7;
- 
- // BMI計算
- console.log(Weight / (Height * Height));
+let Height = 1.7;
 
+ // BMIを計算して変数に格納
+ let bmi = Weight / (Height * Height);
+
+ //結果を出力
+ console.log(bmi);
