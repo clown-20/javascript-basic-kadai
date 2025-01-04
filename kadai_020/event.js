@@ -9,7 +9,6 @@ const text = document.getElementById('text');
   const childList = document.createElement('li');
   // 作成したli要素に「ボタンをクリックしました」というテキストを追加する
   childList.textContent = 'ボタンをクリックしました';
-  text.appendChild(childList);
   text.textContent    = "ボタンをクリックしました";
   
  });
